@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Dashboard</title>
+    <link rel="stylesheet" href="onecentre.css"> <!-- CSS File -->
+</head>
+<body>
+    <header>
+        <h1>Centralized Excel Dashboard</h1>
+    </header>
+    <main>
+        <div id="dashboard">
+            <!-- Example file card -->
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/MTFOBRep.php');">
+                <h2>MTF Overbuilt Report</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/.php');">
+                <h2>MTF FTTB Tracker</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/MTFPoPrecon.php');">
+                <h2>MTF POP recon</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/MTFPlanningrecon.php');">
+                <h2>MTF Planning recon</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/MTFSchools.php');">
+                <h2>MTF Schools Tracker</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/test2.php');">
+                <h2>MTF FTTB Tracker</h2>
+                <p>Click to open the file</p>
+            </div>
+
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/test2.php');">
+                <h2>Evo Overbuilt report</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/test2.php');">
+                <h2>Evo Planning recon</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/test2.php');">
+                <h2>Evo POP recon</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/test2.php');">
+                <h2>Evo FTTB tarcker</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/test2.php');">
+                <h2>MTF FTTB Tracker</h2>
+                <p>Click to open the file</p>
+            </div>
+            <div class="file-card" onclick="openSheet('http://localhost/onecentre/test2.php');">
+                <h2>MTF FTTB Tracker</h2>
+                <p>Click to open the file</p>
+            </div>
+           
+        </div>
+    </main>
+
+    <!-- File Viewer Modal -->
+    <div id="file-viewer">
+        <div class="close-btn" onclick="closeViewer()">Close X</div>
+        <iframe src=""></iframe>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Planning Department</p>
+    </footer>
+    <script src="onecentre.js"></script> <!-- JavaScript File -->
+</body>
+</html>
